@@ -2,7 +2,19 @@
   "permissions": {
     "allow": [
       "Bash(npm view:*)",
-      "Bash(npm ls:*)"
+      "Bash(npm ls:*)",
+      "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && npx openspec new change \"add-recipe-listing\" 2>&1)",
+      "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && npx openspec status --change \"add-recipe-listing\" --json 2>&1)",
+      "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && npx openspec instructions proposal --change \"add-recipe-listing\" --json 2>&1)",
+      "Bash(find \"/c/devel/Claude Code Tests/recipe-book/src\" -type f -name \"*.tsx\" -o -name \"*.ts\" -o -name \"*.json\" 2>/dev/null | head -50)",
+      "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && npx openspec instructions design --change \"add-recipe-listing\" --json 2>&1)",
+      "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && npx openspec instructions specs --change \"add-recipe-listing\" --json 2>&1)",
+      "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && npx openspec instructions tasks --change \"add-recipe-listing\" --json 2>&1)",
+      "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && npx openspec status --change \"add-recipe-listing\" 2>&1)",
+      "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && npx openspec instructions apply --change \"add-recipe-listing\" --json 2>&1)",
+      "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && npx tsc --noEmit 2>&1)",
+      "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && npx kill-port 3001 2>/dev/null; taskkill //F //FI \"WINDOWTITLE eq *json-server*\" 2>/dev/null; lsof -ti:3001 2>/dev/null | xargs kill -9 2>/dev/null; echo \"Done clearing port\")",
+      "Bash(mkdir -p \"/c/devel/Claude Code Tests/recipe-book/openspec/changes/archive\" && cp -r \"/c/devel/Claude Code Tests/recipe-book/openspec/changes/add-recipe-listing\" \"/c/devel/Claude Code Tests/recipe-book/openspec/changes/archive/2026-03-13-add-recipe-listing\" && rm -rf \"/c/devel/Claude Code Tests/recipe-book/openspec/changes/add-recipe-listing\")"
     ]
   }
 }
