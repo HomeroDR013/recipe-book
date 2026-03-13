@@ -1,0 +1,272 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Chilaquiles Verdes",
+      "description": "Totopos bañados en salsa verde con crema, queso y cebolla. Un clásico del desayuno mexicano.",
+      "ingredients": [
+        "12 tortillas cortadas en triángulos",
+        "500ml salsa verde",
+        "200g queso fresco",
+        "1 cebolla en rodajas",
+        "200ml crema ácida",
+        "Aceite para freír",
+        "Sal al gusto"
+      ],
+      "steps": [
+        "Freír los triángulos de tortilla hasta que estén crujientes",
+        "Escurrir el exceso de aceite",
+        "Calentar la salsa verde en una sartén amplia",
+        "Agregar los totopos y mezclar suavemente",
+        "Servir con crema, queso fresco y cebolla"
+      ],
+      "category": "Desayuno",
+      "difficulty": "Fácil",
+      "prepTime": 25,
+      "imageUrl": "https://placehold.co/400x300?text=Chilaquiles"
+    },
+    {
+      "id": 2,
+      "name": "Tacos al Pastor",
+      "description": "Tacos de cerdo marinado con achiote, piña y cilantro. El taco más popular de México.",
+      "ingredients": [
+        "1kg carne de cerdo en láminas",
+        "4 chiles guajillo",
+        "2 cucharadas pasta de achiote",
+        "1 piña en rodajas",
+        "Tortillas de maíz",
+        "Cilantro picado",
+        "Cebolla picada",
+        "Limones"
+      ],
+      "steps": [
+        "Hidratar los chiles y licuar con achiote y especias",
+        "Marinar la carne al menos 4 horas",
+        "Cocinar la carne a la plancha hasta dorar",
+        "Asar las rodajas de piña",
+        "Picar la carne y piña finamente",
+        "Servir en tortillas con cilantro, cebolla y limón"
+      ],
+      "category": "Plato Fuerte",
+      "difficulty": "Media",
+      "prepTime": 60,
+      "imageUrl": "https://placehold.co/400x300?text=Tacos+Pastor"
+    },
+    {
+      "id": 3,
+      "name": "Guacamole Clásico",
+      "description": "Guacamole fresco con aguacate, tomate, cebolla, chile y limón.",
+      "ingredients": [
+        "3 aguacates maduros",
+        "2 tomates picados",
+        "1 cebolla blanca picada",
+        "2 chiles serranos",
+        "Jugo de 2 limones",
+        "Cilantro fresco",
+        "Sal al gusto"
+      ],
+      "steps": [
+        "Cortar los aguacates y retirar el hueso",
+        "Machacar con un tenedor dejando trozos",
+        "Agregar tomate, cebolla y chile picados",
+        "Mezclar con jugo de limón y cilantro",
+        "Sazonar con sal al gusto",
+        "Servir inmediatamente con totopos"
+      ],
+      "category": "Snack",
+      "difficulty": "Fácil",
+      "prepTime": 15,
+      "imageUrl": "https://placehold.co/400x300?text=Guacamole"
+    },
+    {
+      "id": 4,
+      "name": "Enchiladas Rojas",
+      "description": "Tortillas rellenas de pollo bañadas en salsa roja de chile ancho y guajillo.",
+      "ingredients": [
+        "12 tortillas de maíz",
+        "500g pechuga de pollo desmenuzada",
+        "6 chiles ancho",
+        "4 chiles guajillo",
+        "2 dientes de ajo",
+        "200g queso para gratinar",
+        "200ml crema",
+        "Cebolla en rodajas"
+      ],
+      "steps": [
+        "Hidratar los chiles y licuar con ajo para hacer la salsa",
+        "Cocinar y desmenuzar el pollo",
+        "Pasar las tortillas por la salsa",
+        "Rellenar con pollo y enrollar",
+        "Colocar en un refractario y cubrir con salsa restante",
+        "Agregar queso y gratinar en el horno a 180°C por 15 min",
+        "Servir con crema y cebolla"
+      ],
+      "category": "Plato Fuerte",
+      "difficulty": "Media",
+      "prepTime": 45,
+      "imageUrl": "https://placehold.co/400x300?text=Enchiladas"
+    },
+    {
+      "id": 5,
+      "name": "Flan Napolitano",
+      "description": "Postre cremoso de queso crema con caramelo. Un clásico de la repostería mexicana.",
+      "ingredients": [
+        "1 lata leche condensada",
+        "1 lata leche evaporada",
+        "200g queso crema",
+        "5 huevos",
+        "1 cucharadita vainilla",
+        "1 taza azúcar para caramelo"
+      ],
+      "steps": [
+        "Preparar el caramelo derritiendo el azúcar hasta dorar",
+        "Verter el caramelo en un molde y distribuir",
+        "Licuar todos los ingredientes hasta que quede homogéneo",
+        "Verter la mezcla sobre el caramelo",
+        "Hornear a baño maría a 180°C por 1 hora",
+        "Refrigerar al menos 4 horas antes de desmoldar"
+      ],
+      "category": "Postre",
+      "difficulty": "Media",
+      "prepTime": 90,
+      "imageUrl": "https://placehold.co/400x300?text=Flan"
+    },
+    {
+      "id": 6,
+      "name": "Molletes",
+      "description": "Pan telera con frijoles refritos, queso gratinado y pico de gallo.",
+      "ingredients": [
+        "4 teleras o bolillos",
+        "2 tazas frijoles refritos",
+        "300g queso Oaxaca o manchego",
+        "2 tomates picados",
+        "1 cebolla picada",
+        "1 chile serrano picado",
+        "Cilantro picado",
+        "Jugo de limón"
+      ],
+      "steps": [
+        "Cortar los panes a la mitad y tostar ligeramente",
+        "Untar generosamente con frijoles refritos",
+        "Cubrir con queso",
+        "Gratinar en el horno hasta que el queso derrita",
+        "Preparar pico de gallo con tomate, cebolla, chile, cilantro y limón",
+        "Servir los molletes con pico de gallo encima"
+      ],
+      "category": "Desayuno",
+      "difficulty": "Fácil",
+      "prepTime": 20,
+      "imageUrl": "https://placehold.co/400x300?text=Molletes"
+    },
+    {
+      "id": 7,
+      "name": "Pozole Rojo",
+      "description": "Caldo de maíz cacahuazintle con cerdo y chile rojo. Platillo tradicional de fiestas.",
+      "ingredients": [
+        "1kg maíz cacahuazintle",
+        "1kg carne de cerdo (maciza y costilla)",
+        "6 chiles guajillo",
+        "3 chiles ancho",
+        "1 cebolla",
+        "3 dientes de ajo",
+        "Lechuga, rábanos, orégano, tostadas para acompañar"
+      ],
+      "steps": [
+        "Cocer el maíz hasta que reviente (o usar precocido)",
+        "Cocer la carne de cerdo con cebolla y ajo",
+        "Hidratar los chiles, licuar y colar para hacer la salsa",
+        "Agregar la salsa al caldo con la carne",
+        "Incorporar el maíz y cocinar 30 min más",
+        "Servir con lechuga, rábanos, orégano, limón y tostadas"
+      ],
+      "category": "Plato Fuerte",
+      "difficulty": "Difícil",
+      "prepTime": 180,
+      "imageUrl": "https://placehold.co/400x300?text=Pozole"
+    },
+    {
+      "id": 8,
+      "name": "Nachos con Queso",
+      "description": "Totopos crujientes con queso cheddar derretido, jalapeños y guacamole.",
+      "ingredients": [
+        "1 bolsa de totopos",
+        "200g queso cheddar rallado",
+        "100g queso manchego rallado",
+        "Jalapeños en rodajas",
+        "Guacamole",
+        "Crema ácida",
+        "Frijoles negros (opcional)"
+      ],
+      "steps": [
+        "Precalentar el horno a 200°C",
+        "Distribuir los totopos en una bandeja",
+        "Cubrir con los quesos y jalapeños",
+        "Hornear 8-10 min hasta que el queso derrita",
+        "Servir con guacamole y crema"
+      ],
+      "category": "Snack",
+      "difficulty": "Fácil",
+      "prepTime": 15,
+      "imageUrl": "https://placehold.co/400x300?text=Nachos"
+    },
+    {
+      "id": 9,
+      "name": "Arroz con Leche",
+      "description": "Postre cremoso de arroz cocido en leche con canela y pasas.",
+      "ingredients": [
+        "1 taza arroz",
+        "4 tazas leche",
+        "1 taza azúcar",
+        "1 raja de canela",
+        "1 cucharadita vainilla",
+        "Pasas al gusto",
+        "Canela en polvo para decorar"
+      ],
+      "steps": [
+        "Cocer el arroz en agua hasta que esté suave",
+        "Escurrir y agregar la leche y la canela",
+        "Cocinar a fuego medio revolviendo constantemente",
+        "Agregar azúcar y vainilla",
+        "Incorporar las pasas",
+        "Cocinar hasta que espese (20-25 min)",
+        "Servir frío o caliente con canela en polvo"
+      ],
+      "category": "Postre",
+      "difficulty": "Fácil",
+      "prepTime": 45,
+      "imageUrl": "https://placehold.co/400x300?text=Arroz+Leche"
+    },
+    {
+      "id": 10,
+      "name": "Huevos Rancheros",
+      "description": "Huevos fritos sobre tortilla con salsa roja, frijoles y aguacate.",
+      "ingredients": [
+        "4 huevos",
+        "4 tortillas de maíz",
+        "500ml salsa roja",
+        "1 taza frijoles refritos",
+        "1 aguacate en rebanadas",
+        "Queso fresco",
+        "Aceite"
+      ],
+      "steps": [
+        "Freír las tortillas ligeramente sin que queden crujientes",
+        "Freír los huevos al gusto (estrellados recomendado)",
+        "Calentar la salsa roja y los frijoles",
+        "Colocar tortilla en el plato, untar frijoles",
+        "Poner el huevo encima y bañar con salsa",
+        "Decorar con aguacate y queso fresco"
+      ],
+      "category": "Desayuno",
+      "difficulty": "Fácil",
+      "prepTime": 20,
+      "imageUrl": "https://placehold.co/400x300?text=Huevos+Rancheros"
+    }
+  ],
+  "categories": [
+    { "id": 1, "name": "Desayuno" },
+    { "id": 2, "name": "Plato Fuerte" },
+    { "id": 3, "name": "Postre" },
+    { "id": 4, "name": "Snack" }
+  ]
+}
