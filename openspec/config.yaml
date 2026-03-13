@@ -1,0 +1,9 @@
+schema: spec-driven
+
+context: |
+  Proyecto: Recipe Book (Libro de Recetas)
+  Tech stack: React + TypeScript, Vite, RTK Query, Tailwind CSS v4
+  Mock API: JSON Server en http://localhost:3001
+  Endpoints: GET /recipes, GET /categories
+  Arquitectura: features/ (por dominio), shared/ (componentes comunes), store/
+  Patrones: RTK Query para data fetching, React Hook Form + Zod para formularios
