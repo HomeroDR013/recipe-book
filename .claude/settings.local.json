@@ -14,7 +14,15 @@
       "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && npx openspec instructions apply --change \"add-recipe-listing\" --json 2>&1)",
       "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && npx tsc --noEmit 2>&1)",
       "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && npx kill-port 3001 2>/dev/null; taskkill //F //FI \"WINDOWTITLE eq *json-server*\" 2>/dev/null; lsof -ti:3001 2>/dev/null | xargs kill -9 2>/dev/null; echo \"Done clearing port\")",
-      "Bash(mkdir -p \"/c/devel/Claude Code Tests/recipe-book/openspec/changes/archive\" && cp -r \"/c/devel/Claude Code Tests/recipe-book/openspec/changes/add-recipe-listing\" \"/c/devel/Claude Code Tests/recipe-book/openspec/changes/archive/2026-03-13-add-recipe-listing\" && rm -rf \"/c/devel/Claude Code Tests/recipe-book/openspec/changes/add-recipe-listing\")"
+      "Bash(mkdir -p \"/c/devel/Claude Code Tests/recipe-book/openspec/changes/archive\" && cp -r \"/c/devel/Claude Code Tests/recipe-book/openspec/changes/add-recipe-listing\" \"/c/devel/Claude Code Tests/recipe-book/openspec/changes/archive/2026-03-13-add-recipe-listing\" && rm -rf \"/c/devel/Claude Code Tests/recipe-book/openspec/changes/add-recipe-listing\")",
+      "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && npx openspec new change \"add-search-and-filter\" 2>&1)",
+      "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && npx openspec status --change \"add-search-and-filter\" --json 2>&1)",
+      "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && npx openspec instructions proposal --change \"add-search-and-filter\" --json 2>&1)",
+      "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && npx openspec instructions design --change \"add-search-and-filter\" --json 2>&1 && echo \"===SEPARATOR===\" && npx openspec instructions specs --change \"add-search-and-filter\" --json 2>&1)",
+      "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && npx openspec instructions tasks --change \"add-search-and-filter\" --json 2>&1)",
+      "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && npx openspec status --change \"add-search-and-filter\" 2>&1)",
+      "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && npx openspec instructions apply --change \"add-search-and-filter\" --json 2>&1)",
+      "Bash(mkdir -p \"/c/devel/Claude Code Tests/recipe-book/openspec/changes/archive\" && cp -r \"/c/devel/Claude Code Tests/recipe-book/openspec/changes/add-search-and-filter\" \"/c/devel/Claude Code Tests/recipe-book/openspec/changes/archive/2026-03-13-add-search-and-filter\" && rm -rf \"/c/devel/Claude Code Tests/recipe-book/openspec/changes/add-search-and-filter\")"
     ]
   }
 }
