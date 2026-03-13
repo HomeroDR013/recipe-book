@@ -1,11 +1,7 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import { difficultyColor } from "../types";
 import type { Recipe } from "../types";
-
-const difficultyColor: Record<string, string> = {
-  "Fácil": "bg-green-100 text-green-800",
-  "Media": "bg-yellow-100 text-yellow-800",
-  "Difícil": "bg-red-100 text-red-800",
-};
 
 interface RecipeCardProps {
   recipe: Recipe;
@@ -15,7 +11,7 @@ export function RecipeCard({ recipe }: RecipeCardProps) {
   const [imgError, setImgError] = useState(false);
 
   return (
-    <div className="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition-shadow">
+    <Link to={`/recipes/${recipe.id}`} className="block bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition-shadow">
       {imgError ? (
         <div className="h-48 bg-gray-200 flex items-center justify-center text-gray-400">
           Sin imagen
@@ -40,6 +36,6 @@ export function RecipeCard({ recipe }: RecipeCardProps) {
           <span className="text-sm text-gray-500">{recipe.prepTime} min</span>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
