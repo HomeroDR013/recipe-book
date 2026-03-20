@@ -1,12 +1,31 @@
 import { useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { useGetRecipeByIdQuery } from "../api/recipesApi";
+import {
+  useGetRecipeByIdQuery,
+  useGetFavoritesQuery,
+  useAddFavoriteMutation,
+  useRemoveFavoriteMutation,
+} from "../api/recipesApi";
 import { difficultyColor } from "../types";
 
 export function RecipeDetailPage() {
   const { id } = useParams<{ id: string }>();
   const { data: recipe, isLoading, error } = useGetRecipeByIdQuery(Number(id));
+  const { data: favorites = [] } = useGetFavoritesQuery();
+  const [addFavorite] = useAddFavoriteMutation();
+  const [removeFavorite] = useRemoveFavoriteMutation();
   const [imgError, setImgError] = useState(false);
+
+  const favorite = favorites.find((f) => f.recipeId === Number(id));
+  const isFavorite = !!favorite;
+
+  const handleToggleFavorite = () => {
+    if (favorite) {
+      removeFavorite(favorite.id);
+    } else {
+      addFavorite(Number(id));
+    }
+  };
 
   if (isLoading) {
     return (
@@ -55,7 +74,18 @@ export function RecipeDetailPage() {
       )}
 
       <div className="mt-6">
-        <h2 className="text-3xl font-bold text-gray-900">{recipe.name}</h2>
+        <div className="flex items-center gap-3">
+          <h2 className="text-3xl font-bold text-gray-900">{recipe.name}</h2>
+          <button
+            onClick={handleToggleFavorite}
+            className="text-2xl leading-none"
+            aria-label={isFavorite ? "Quitar de favoritos" : "Agregar a favoritos"}
+          >
+            <span className={isFavorite ? "text-red-500" : "text-gray-400"}>
+              {isFavorite ? "♥" : "♡"}
+            </span>
+          </button>
+        </div>
 
         <div className="mt-3 flex flex-wrap items-center gap-3">
           <span className="text-sm text-gray-500">{recipe.category}</span>

@@ -6,6 +6,8 @@ interface RecipeFilterBarProps {
   selectedCategory: string;
   onCategoryChange: (value: string) => void;
   categories: Category[];
+  showFavoritesOnly: boolean;
+  onShowFavoritesOnlyChange: (value: boolean) => void;
 }
 
 export function RecipeFilterBar({
@@ -14,6 +16,8 @@ export function RecipeFilterBar({
   selectedCategory,
   onCategoryChange,
   categories,
+  showFavoritesOnly,
+  onShowFavoritesOnlyChange,
 }: RecipeFilterBarProps) {
   return (
     <div className="flex flex-col sm:flex-row gap-4 mb-6">
@@ -36,6 +40,16 @@ export function RecipeFilterBar({
           </option>
         ))}
       </select>
+      <button
+        onClick={() => onShowFavoritesOnlyChange(!showFavoritesOnly)}
+        className={`rounded-lg border px-4 py-2 text-sm transition-colors ${
+          showFavoritesOnly
+            ? "border-red-400 bg-red-50 text-red-600"
+            : "border-gray-300 text-gray-600 hover:bg-gray-50"
+        }`}
+      >
+        ♥ Favoritos
+      </button>
     </div>
   );
 }

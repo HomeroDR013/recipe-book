@@ -9,6 +9,11 @@ export const difficultyColor: Record<string, string> = {
   "Difícil": "bg-red-100 text-red-800",
 };
 
+export interface Favorite {
+  id: number;
+  recipeId: number;
+}
+
 export interface Recipe {
   id: number;
   name: string;
