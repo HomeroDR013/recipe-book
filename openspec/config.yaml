@@ -1,4 +1,4 @@
-schema: spec-driven
+schema: team-workflow
 
 context: |
   Proyecto: Recipe Book (Libro de Recetas)
@@ -36,3 +36,6 @@ rules:
     - Agrupar tasks por área (types, API, components, integration)
     - Cada task debe ser completable en una sola sesión
     - Incluir task de verificación visual al final
+  review:
+    - Para cada sección agregar una calificación de 1/10
+    - Para cada consideración dentro de cada sección denotar nivel de criticidad tomando como posibles valores "Urgente", "Alta", "Media", "Baja", "Inconsecuente"

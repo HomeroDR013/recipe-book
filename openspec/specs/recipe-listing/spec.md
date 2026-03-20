@@ -51,6 +51,17 @@ Each recipe card SHALL display the recipe image, name, category, difficulty, and
 - **WHEN** a recipe card is rendered
 - **THEN** the card uses a semantic `<Link>` element so it supports right-click open in new tab and keyboard navigation
 
+### Requirement: Recipe card includes WhatsApp share action
+Each recipe card SHALL include a WhatsApp share icon button overlaid on the card image. Clicking the share button SHALL NOT trigger the card's navigation to the detail page.
+
+#### Scenario: Share icon on card
+- **WHEN** a recipe card is rendered
+- **THEN** a WhatsApp share icon button is displayed in the top-right corner of the card image, alongside the favorite button
+
+#### Scenario: Share click does not navigate
+- **WHEN** the user clicks the WhatsApp share icon on a recipe card
+- **THEN** the card link navigation SHALL NOT be triggered (click event is intercepted)
+
 ### Requirement: Store integration
 The RTK Query API slice SHALL be registered in the Redux store with its reducer and middleware.
 

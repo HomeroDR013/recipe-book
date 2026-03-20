@@ -32,7 +32,17 @@
       "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && openspec instructions tasks --change \"add-recipe-detail-page\" --json)",
       "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && openspec instructions apply --change \"add-recipe-detail-page\" --json)",
       "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && npm install react-router-dom)",
-      "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && cp -r \"openspec/changes/add-recipe-detail-page\" \"openspec/changes/archive/2026-03-13-add-recipe-detail-page\" && rm -rf \"openspec/changes/add-recipe-detail-page\")"
+      "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && cp -r \"openspec/changes/add-recipe-detail-page\" \"openspec/changes/archive/2026-03-13-add-recipe-detail-page\" && rm -rf \"openspec/changes/add-recipe-detail-page\")",
+      "Bash(cd \"/c/devel/Claude Code Tests/recipe-book\" && openspec list --json)",
+      "Bash(cd:*)",
+      "Bash(mkdir:*)",
+      "Bash(which nvm:*)",
+      "Bash(export:*)",
+      "Bash(\"/c/Users/Ohm_0/AppData/Roaming/nvm/v20.19.0/node.exe\" --version 2>&1)",
+      "Bash(npx tsc:*)",
+      "Bash(curl:*)",
+      "Bash(npx openspec:*)",
+      "Bash(npm install:*)"
     ]
   }
 }
