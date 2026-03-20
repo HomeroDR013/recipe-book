@@ -6,10 +6,10 @@
       "description": "Totopos bañados en salsa verde con crema, queso y cebolla. Un clásico del desayuno mexicano.",
       "ingredients": [
         "12 tortillas cortadas en triángulos",
-        "500ml salsa verde",
-        "200g queso fresco",
+        "500 ml salsa verde",
+        "200 g queso fresco",
         "1 cebolla en rodajas",
-        "200ml crema ácida",
+        "200 ml crema ácida",
         "Aceite para freír",
         "Sal al gusto"
       ],
@@ -30,7 +30,7 @@
       "name": "Tacos al Pastor",
       "description": "Tacos de cerdo marinado con achiote, piña y cilantro. El taco más popular de México.",
       "ingredients": [
-        "1kg carne de cerdo en láminas",
+        "1 kg carne de cerdo en láminas",
         "4 chiles guajillo",
         "2 cucharadas pasta de achiote",
         "1 piña en rodajas",
@@ -84,12 +84,12 @@
       "description": "Tortillas rellenas de pollo bañadas en salsa roja de chile ancho y guajillo.",
       "ingredients": [
         "12 tortillas de maíz",
-        "500g pechuga de pollo desmenuzada",
+        "500 g pechuga de pollo desmenuzada",
         "6 chiles ancho",
         "4 chiles guajillo",
         "2 dientes de ajo",
-        "200g queso para gratinar",
-        "200ml crema",
+        "200 g queso para gratinar",
+        "200 ml crema",
         "Cebolla en rodajas"
       ],
       "steps": [
@@ -113,7 +113,7 @@
       "ingredients": [
         "1 lata leche condensada",
         "1 lata leche evaporada",
-        "200g queso crema",
+        "200 g queso crema",
         "5 huevos",
         "1 cucharadita vainilla",
         "1 taza azúcar para caramelo"
@@ -138,7 +138,7 @@
       "ingredients": [
         "4 teleras o bolillos",
         "2 tazas frijoles refritos",
-        "300g queso Oaxaca o manchego",
+        "300 g queso Oaxaca o Manchego",
         "2 tomates picados",
         "1 cebolla picada",
         "1 chile serrano picado",
@@ -163,8 +163,8 @@
       "name": "Pozole Rojo",
       "description": "Caldo de maíz cacahuazintle con cerdo y chile rojo. Platillo tradicional de fiestas.",
       "ingredients": [
-        "1kg maíz cacahuazintle",
-        "1kg carne de cerdo (maciza y costilla)",
+        "1 kg maíz cacahuazintle",
+        "1 kg carne de cerdo (maciza y costilla)",
         "6 chiles guajillo",
         "3 chiles ancho",
         "1 cebolla",
@@ -187,11 +187,11 @@
     {
       "id": 8,
       "name": "Nachos con Queso",
-      "description": "Totopos crujientes con queso cheddar derretido, jalapeños y guacamole.",
+      "description": "Totopos crujientes con queso Cheddar derretido, jalapeños y guacamole.",
       "ingredients": [
         "1 bolsa de totopos",
-        "200g queso cheddar rallado",
-        "100g queso manchego rallado",
+        "200 g queso Cheddar rallado",
+        "100 g queso Manchego rallado",
         "Jalapeños en rodajas",
         "Guacamole",
         "Crema ácida",
@@ -243,7 +243,7 @@
       "ingredients": [
         "4 huevos",
         "4 tortillas de maíz",
-        "500ml salsa roja",
+        "500 ml salsa roja",
         "1 taza frijoles refritos",
         "1 aguacate en rebanadas",
         "Queso fresco",

@@ -42,7 +42,8 @@
       "Bash(npx tsc:*)",
       "Bash(curl:*)",
       "Bash(npx openspec:*)",
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(node -e \":*)"
     ]
   }
 }
